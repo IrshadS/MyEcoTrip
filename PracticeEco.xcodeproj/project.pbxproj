@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9C2466601ED55CBE00E411C9 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C24665F1ED55CBE00E411C9 /* R.generated.swift */; };
 		9C36BF291ED3FE4500344FC6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C36BF281ED3FE4500344FC6 /* AppDelegate.swift */; };
 		9C36BF2B1ED3FE4500344FC6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C36BF2A1ED3FE4500344FC6 /* ViewController.swift */; };
 		9C36BF2E1ED3FE4500344FC6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C36BF2C1ED3FE4500344FC6 /* Main.storyboard */; };
@@ -20,9 +21,12 @@
 		9C36BF4E1ED401C200344FC6 /* UserDefaultsValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C36BF4D1ED401C200344FC6 /* UserDefaultsValues.swift */; };
 		9C36BF511ED4038A00344FC6 /* TextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C36BF501ED4038A00344FC6 /* TextField+Extension.swift */; };
 		9C36BF531ED4095E00344FC6 /* TerraaLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C36BF521ED4095E00344FC6 /* TerraaLoader.swift */; };
+		C378FB5AB7DDEE3D59CBF2CE /* Pods_PracticeEco.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E041C49DA60F9DF4A518FCF8 /* Pods_PracticeEco.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		31788DBAC6E04423B2D3175B /* Pods-PracticeEco.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PracticeEco.release.xcconfig"; path = "Pods/Target Support Files/Pods-PracticeEco/Pods-PracticeEco.release.xcconfig"; sourceTree = "<group>"; };
+		9C24665F1ED55CBE00E411C9 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = SOURCE_ROOT; };
 		9C36BF251ED3FE4500344FC6 /* PracticeEco.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PracticeEco.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C36BF281ED3FE4500344FC6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9C36BF2A1ED3FE4500344FC6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -38,6 +42,8 @@
 		9C36BF4D1ED401C200344FC6 /* UserDefaultsValues.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaultsValues.swift; sourceTree = "<group>"; };
 		9C36BF501ED4038A00344FC6 /* TextField+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TextField+Extension.swift"; sourceTree = "<group>"; };
 		9C36BF521ED4095E00344FC6 /* TerraaLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TerraaLoader.swift; sourceTree = "<group>"; };
+		E041C49DA60F9DF4A518FCF8 /* Pods_PracticeEco.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PracticeEco.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE7A2AF9F0A784F109833EA6 /* Pods-PracticeEco.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PracticeEco.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PracticeEco/Pods-PracticeEco.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C378FB5AB7DDEE3D59CBF2CE /* Pods_PracticeEco.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +63,8 @@
 			children = (
 				9C36BF271ED3FE4500344FC6 /* PracticeEco */,
 				9C36BF261ED3FE4500344FC6 /* Products */,
+				A21766D370F53B4C2C88F9C3 /* Pods */,
+				E275C5DB7845B02A7D54422A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -70,6 +79,7 @@
 		9C36BF271ED3FE4500344FC6 /* PracticeEco */ = {
 			isa = PBXGroup;
 			children = (
+				9C24665F1ED55CBE00E411C9 /* R.generated.swift */,
 				9C36BF4F1ED4038100344FC6 /* Extensions */,
 				9C36BF4C1ED401B000344FC6 /* Storage */,
 				9C36BF3D1ED3FF1400344FC6 /* ViewControllers */,
@@ -136,6 +146,23 @@
 			name = Extensions;
 			sourceTree = "<group>";
 		};
+		A21766D370F53B4C2C88F9C3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FE7A2AF9F0A784F109833EA6 /* Pods-PracticeEco.debug.xcconfig */,
+				31788DBAC6E04423B2D3175B /* Pods-PracticeEco.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E275C5DB7845B02A7D54422A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E041C49DA60F9DF4A518FCF8 /* Pods_PracticeEco.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,9 +170,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9C36BF371ED3FE4500344FC6 /* Build configuration list for PBXNativeTarget "PracticeEco" */;
 			buildPhases = (
+				45BA91F39461FD5AC817EBA4 /* [CP] Check Pods Manifest.lock */,
+				9C24665E1ED55BCC00E411C9 /* ShellScript */,
 				9C36BF211ED3FE4500344FC6 /* Sources */,
 				9C36BF221ED3FE4500344FC6 /* Frameworks */,
 				9C36BF231ED3FE4500344FC6 /* Resources */,
+				D40A69053639208E95661E01 /* [CP] Embed Pods Frameworks */,
+				69CE7DD016319CFD6F4F50C4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -206,6 +237,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		45BA91F39461FD5AC817EBA4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		69CE7DD016319CFD6F4F50C4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PracticeEco/Pods-PracticeEco-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C24665E1ED55BCC00E411C9 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$PODS_ROOT/R.swift/rswift\" \"$SRCROOT\"";
+		};
+		D40A69053639208E95661E01 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PracticeEco/Pods-PracticeEco-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9C36BF211ED3FE4500344FC6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -214,6 +306,7 @@
 				9C36BF4A1ED3FF7B00344FC6 /* SignUpVC.swift in Sources */,
 				9C36BF2B1ED3FE4500344FC6 /* ViewController.swift in Sources */,
 				9C36BF4E1ED401C200344FC6 /* UserDefaultsValues.swift in Sources */,
+				9C2466601ED55CBE00E411C9 /* R.generated.swift in Sources */,
 				9C36BF511ED4038A00344FC6 /* TextField+Extension.swift in Sources */,
 				9C36BF291ED3FE4500344FC6 /* AppDelegate.swift in Sources */,
 				9C36BF461ED3FF6D00344FC6 /* LoginVC.swift in Sources */,
@@ -336,6 +429,7 @@
 		};
 		9C36BF381ED3FE4500344FC6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE7A2AF9F0A784F109833EA6 /* Pods-PracticeEco.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PracticeEco/Info.plist;
@@ -349,6 +443,7 @@
 		};
 		9C36BF391ED3FE4500344FC6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31788DBAC6E04423B2D3175B /* Pods-PracticeEco.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PracticeEco/Info.plist;
@@ -379,6 +474,7 @@
 				9C36BF391ED3FE4500344FC6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
